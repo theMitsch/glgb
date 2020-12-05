@@ -1,0 +1,109 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+@media only screen and (max-width: 840px) {
+  .small-screen {
+    display: block;
+  }
+  .large-screen {
+    display: none;
+  }
+  .origin-words {
+    margin-top: 60px;
+    color: darkred;
+    font-family: 'Anton', sans-serif;
+    font-size: 35px;
+    line-height: 1;
+  }
+}
+@media only screen and (min-width: 840px) {
+  .small-screen {
+    display: none;
+  }
+  .large-screen {
+    display: initial;
+  }
+  .origin-words {
+    margin-top: 60px;
+    color: darkred;
+    font-family: 'Anton', sans-serif;
+    font-size: 65px;
+    line-height: 1;
+  }
+}
+
+.grid-container {
+  margin-top: 80px;
+  margin-bottom: 40px;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+
+}
+.grid-item {
+  font-size: 30px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+
+.button {
+  background-color: indianred;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-bottom: 40px;
+
+  &:hover {
+    background-color: darkred;
+  }
+}
+
+img.animated-nils{
+  margin-top: 30px;
+  width: 220px;
+  height: auto;
+}
+
+img.animated-donnie{
+  margin-top: 30px;
+  margin-left: 150px;
+  width: 150px;
+  height: auto;
+}
+
+img.animated-herm{
+  width: 300px;
+  height: auto;
+}
+
+.footer-message {
+  color:darkgray;
+  float: right;
+  margin-right: 30px;
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+}
+
+.footer-stats {
+  float: left;
+  margin-left: 30px;
+}
+
+footer {
+  position: absolute;
+  font-size: 12px;
+  bottom: 0;
+  width: 99%;
+  height: 60px;
+  line-height: 60px;
+  font-size: 14px;
+  background-color: #f1f1f1;
+  color: #000000;
+  text-align: center;
+}
+
